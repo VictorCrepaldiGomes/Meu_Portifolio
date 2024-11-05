@@ -1,0 +1,25 @@
+.h1 {
+    color: black; /* Cor do h1 */
+}
+
+.Dados {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+/* Removendo o sublinhado dos links colocados além de alinhar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: purple; /* Cor */
+    text-decoration: none; /* Remove a linha embaixo do Link */
+    font-weight: bold; /* Negrito */
+}
+
