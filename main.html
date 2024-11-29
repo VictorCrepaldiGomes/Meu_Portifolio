@@ -1,36 +1,64 @@
+/*Cabeça da Página*/
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portfólio Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Meu Portfólio</title>
 </head>
+
+/*Corpo da Página e tópicos*/
 <body>
-    <header class="topodapagina">
-        <h1 class="Portifolio">Portfólio</h1>
-        <nav>
-            <ul class="Links">
-                <li><a href="#sobremim">Sobre mim</a></li>
-                <li><a href="#meuscertificados">Meus Certificados</a></li>
-                <li><a href="#contato">Meu Contato</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Meu Portfólio</h1>
+            <nav class="nav">
+                <a href="#sobremim">Sobre Mim</a>
+                <a href="#meuscertificados">Certificados</a>
+                <a href="#contato">Contato</a>
+                <button id="theme-toggle" class="theme-button">🌙</button>
+            </nav>
+        </div>
     </header>
 
-    <section id="sobremim" class="section">
-        <h2>Sobre Mim</h2>
-        <p>Desenvolvedor </p>
-    </section>
+    <main>
+        <section id="sobremim" class="section">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor web apaixonado por criar soluções inovadoras que combinam design moderno e tecnologia avançada. Adoro aprender e explorar novas ferramentas para entregar o melhor em cada projeto.</p>
+            </div>
+        </section>
 
-    <section id="meuscertificados" class="section">
-        <h2>Meus Certificados</h2>
-        <p></p>
-    </section>
+        <section id="meuscertificados" class="section alt-bg">
+            <div class="container">
+                <h2>Meus Certificados</h2>
+                <p>Certificações em desenvolvimento web, programação e tecnologias emergentes. Confira no meu LinkedIn!</p>
+            </div>
+        </section>
 
-    <section id="contato" class="section">
-        <h2>Contato</h2>
-        <p></p>
-    </section>
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato por:</p>
+                <div class="social-links">
+                    <a href="https://github.com/VictorCrepaldiGomes" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://linkedin.com/in/SEU_PERFIL" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+/*Final da página e link javascript*/
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 - Desenvolvido por Você</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
