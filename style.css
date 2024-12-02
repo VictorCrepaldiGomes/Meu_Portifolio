@@ -162,3 +162,11 @@ body.dark-theme {
 .lightbox .close-lightbox:hover {
     transform: scale(1.2);
 }
+
+
+.section p {
+    font-size: 1.2em;
+    text-align: justify; 
+    line-height: 1.6; 
+    margin-top: 15px; 
+}
