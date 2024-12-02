@@ -13,6 +13,7 @@
             <h1 class="logo">Meu Portfólio</h1>
             <nav class="nav">
                 <a href="#sobremim">Sobre Mim</a>
+                <a href="#meusprojetos">Meus Projetos</a>
                 <a href="#meuscertificados">Certificados</a>
                 <a href="#contato">Contato</a>
                 <button id="theme-toggle" class="theme-button"><i class="fas fa-moon"></i></button>
@@ -27,6 +28,31 @@
                 <p>Olá! Meu nome é Victor, sou formado em Análise e Desenvolvimento de Sistemas e sempre gostei muito de tecnologia e inovação. Tudo começou com um grande interesse em entender como as coisas funcionam por trás das telas, o que me levou a entrar no mundo da programação e do desenvolvimento de software.</p>
                 <p>Hoje, dedico meu tempo a criar soluções que unem criatividade e eficiência. Tenho experiência no desenvolvimento de sistemas, aplicações web e na integração de tecnologias para atender às necessidades do mundo moderno. Minha missão é utilizar a tecnologia como ferramenta para simplificar processos e criar experiências mais conectadas e intuitivas.</p>
                 <p>Se você deseja saber mais sobre meu trabalho ou trocar ideias, fique à vontade para entrar em contato!</p>
+                <p id="typing-effect"></p>
+            </div>
+        </section>
+
+        <section id="meusprojetos" class="section">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <p>Confira alguns dos meus projetos mais recentes:</p>
+                <div class="project-gallery">
+                    <div class="project">
+                        <img src="projeto1.jpg" alt="Projeto 1">
+                        <h3>Projeto 1</h3>
+                        <p>Descrição do projeto 1. Explique brevemente o objetivo e as tecnologias utilizadas.</p>
+                    </div>
+                    <div class="project">
+                        <img src="projeto2.jpg" alt="Projeto 2">
+                        <h3>Projeto 2</h3>
+                        <p>Descrição do projeto 2. Destaque os recursos ou resultados alcançados.</p>
+                    </div>
+                    <div class="project">
+                        <img src="projeto3.jpg" alt="Projeto 3">
+                        <h3>Projeto 3</h3>
+                        <p>Descrição do projeto 3. Adicione detalhes relevantes sobre o desenvolvimento.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -35,21 +61,18 @@
                 <h2>Meus Certificados</h2>
                 <p>Clique em um certificado para ampliá-lo.</p>
                 <div class="gallery">
-                    <img src="certificado1.jpg" alt="Certificado 1">
-                    <img src="certificado2.jpg" alt="Certificado 2">
-                    <img src="certificado3.jpg" alt="Certificado 3">
-                    <img src="certificado4.jpg" alt="Certificado 4">
-                    <img src="certificado5.jpg" alt="Certificado 1">
-                    <img src="certificado6.jpg" alt="Certificado 2">
-                    <img src="certificado7.jpg" alt="Certificado 3">
-                    <img src="certificado8.jpg" alt="Certificado 4">
-                    <img src="certificado9.jpg" alt="Certificado 1">
-                    <img src="certificado10.jpg" alt="Certificado 2">
-                    <img src="certificado12.jpg" alt="Certificado 3">
-                    <img src="certificado13.jpg" alt="Certificado 4">
+                    <img src="certificado1.jpg" alt="Certificado 1" class="certificado">
+                    <img src="certificado2.jpg" alt="Certificado 2" class="certificado">
+                    <img src="certificado3.jpg" alt="Certificado 3" class="certificado">
                 </div>
             </div>
         </section>
+        
+        <div class="lightbox" id="lightbox">
+            <img id="lightbox-img" src="" alt="Imagem ampliada">
+            <span class="close-lightbox" id="close-lightbox">&times;</span>
+        </div>
+        
 
         <section id="contato" class="section">
             <div class="container">
@@ -68,11 +91,6 @@
             <p>&copy; Victor Crepaldi Gomes - 2024</p>
         </div>
     </footer>
-
-    <div class="lightbox" id="lightbox">
-        <img id="lightbox-img" src="" alt="Imagem ampliada">
-        <span class="close-lightbox" id="close-lightbox">&times;</span>
-    </div>
 
     <script src="script.js"></script>
 </body>
