@@ -273,9 +273,13 @@ body.dark-theme {
 
 #meusprojetos p {
     margin-bottom: 20px;
-    text-align: justify; 
+    text-align: center; 
 }
 
 #contato p {
     margin-bottom: 20px; 
+}
+
+.h2 p {
+    text-align: center;
 }
