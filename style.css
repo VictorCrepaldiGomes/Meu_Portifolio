@@ -87,7 +87,11 @@ body.dark-theme {
 
 .section p {
     font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.6;
 }
+
+
 
 /* Botões sociais */
 .social-links .button {
@@ -208,10 +212,12 @@ body.dark-theme {
 .project p {
     font-size: 1.1em;
     line-height: 1.5;
+    text-align: justify;
     color: #ddd;
 }
 
-/* Lightbox */
+
+
 .lightbox {
     display: none;
     position: fixed;
@@ -266,7 +272,8 @@ body.dark-theme {
 }
 
 #meusprojetos p {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    text-align: justify; 
 }
 
 #contato p {
